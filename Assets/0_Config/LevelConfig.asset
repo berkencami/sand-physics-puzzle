@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9012bdede9ed55147acbff1a938f3b6f, type: 3}
+  m_Name: LevelConfig
+  m_EditorClassIdentifier:
+  GridWidth: 120
+  GridHeight: 168
+  BlockSize: 12
+  DangerLineY: 132
+  SimHz: 60
+  SubStepsPerTick: 2
+  MaxTicksPerFrame: 3
+  UseChunkCulling: 1
+  BackgroundColor: {r: 0.05, g: 0.05, b: 0.07, a: 1}
+  SandColors:
+  - {r: 0.91, g: 0.3, b: 0.33, a: 1}
+  - {r: 0.98, g: 0.75, b: 0.23, a: 1}
+  - {r: 0.35, g: 0.78, b: 0.45, a: 1}
+  - {r: 0.29, g: 0.6, b: 0.94, a: 1}
+  - {r: 0.7, g: 0.44, b: 0.89, a: 1}
+  - {r: 0.95, g: 0.35, b: 0.72, a: 1}
+  GrainJitter: 22
+  ClearFlashColor: {r: 1, g: 1, b: 1, a: 1}
+  FlashTicks: 9
+  StickChance: 0.22
+  BoardBias: 0.32
